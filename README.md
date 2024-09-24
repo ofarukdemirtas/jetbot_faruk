@@ -23,7 +23,9 @@ To run this project, ensure you have the following installed:
 
 -NVIDIA Jetson Nano
 
--JetBot platform with wheels and motors
+-JetBot chasis with wheels and motors
+
+-SD card
 
 -Pi Camera (or any compatible camera)
 
@@ -72,6 +74,14 @@ To run this project, ensure you have the following installed:
     ```bash
     python3 obstacle_avoidance.py
     ```
+
+ ## Demo Video
+
+Watch the JetBot in action! Check out this YouTube video demonstrating the basic movement control, camera feed processing, and future features like autonomous navigation and object following.
+
+[![JetBot Demo Video](https://img.youtube.com/vi/YOUR_VIDEO_ID/maxresdefault.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+
+> Click the image above to watch the video on YouTube.
 
 
 ## Contributing
