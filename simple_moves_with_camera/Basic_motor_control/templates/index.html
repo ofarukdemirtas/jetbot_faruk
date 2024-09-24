@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Remote Control</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .controls {
+      text-align: center;
+      margin: 10px;
+    }
+    .camera {
+      margin: 10px;
+    }
+  </style>
+  <script>
+    function getsend(direction) {
+     fetch(`/control/${direction}`, { method: 'GET' });
+
+    }
+  </script>
+</head>
+<body>
+  <div class="container">
+    <div class="controls">
+      <h1>Remote Control</h1>
+
+      <button style="background-color:lightgrey;width:90px;height:80px;" 
+              onmousedown="getsend('forward')" 
+              onmouseup="getsend('stop')" 
+              ontouchstart="getsend('forward')" 
+              ontouchend="getsend('stop')">
+        <b>Forward</b>
+      </button><br>
+      <button style="background-color:lightgrey;width:90px;height:80px;" 
+              onmousedown="getsend('left')" 
+              onmouseup="getsend('stop')" 
+              ontouchstart="getsend('left')" 
+              ontouchend="getsend('stop')">
+        <b>Left</b>
+      </button>
+      <button style="background-color:indianred;width:90px;height:80px;" 
+              onmousedown="getsend('stop')" 
+              onmouseup="getsend('stop')">
+        <b>Stop</b>
+      </button>
+      <button style="background-color:lightgrey;width:90px;height:80px;" 
+              onmousedown="getsend('right')" 
+              onmouseup="getsend('stop')" 
+              ontouchstart="getsend('right')" 
+              ontouchend="getsend('stop')">
+        <b>Right</b>
+      </button><br>
+      <button style="background-color:lightgrey;width:90px;height:80px;" 
+              onmousedown="getsend('backward')" 
+              onmouseup="getsend('stop')" 
+              ontouchstart="getsend('backward')" 
+              ontouchend="getsend('stop')">
+        <b>Backward</b>
+      </button>
+    </div>
+    <div class="camera">
+      <h1>Live Camera Feed</h1>
+        <img src="/video" width="640" height="480" />
+
+    </div>
+  </div>
+</body>
+</html>
+
