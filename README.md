@@ -20,19 +20,29 @@ I just make a AI-powered robot with my own and cheap components.
 To run this project, ensure you have the following installed:
 
 ## Hardware Requirements
+
 -NVIDIA Jetson Nano
+
 -JetBot platform with wheels and motors
+
 -Pi Camera (or any compatible camera)
+
 -Motor driver for controlling motors
+
 -Power supply (battery pack or USB power)
+
 -Wi-Fi adapter for remote control and SSH access
 
 ## Software Requirements
 
 -Ubuntu for Jetson Nano
+
 -Python 3.x
+
 -OpenCV for image processing
+
 -JetBot SDK for hardware control
+
 -Jetson.GPIO for motor control
 
 ## Installation
