@@ -79,7 +79,7 @@ To run this project, ensure you have the following installed:
 
 Watch the JetBot in action! Check out this YouTube video demonstrating the basic movement control, camera feed processing, and future features like autonomous navigation and object following.
 
-[![JetBot Demo Video](https://img.youtube.com/vi/YOUR_VIDEO_ID/maxresdefault.jpg)](https://www.youtube.com/watch?v=YOUR_VIDEO_ID)
+[![JetBot Demo Video](https://img.youtube.com/vi/rRuS2xSkRGo/maxresdefault.jpg)](https://youtu.be/rRuS2xSkRGo?si=99LXe0mwiLB5YjAb)
 
 > Click the image above to watch the video on YouTube.
 
